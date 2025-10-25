@@ -7,7 +7,7 @@ The goal is to examine how shipments move through facilities, calculate performa
 
 
 How to Use This Project
-To use or reproduce this project, simply clone the repository from GitHub:
+To use or reproduce this project, simply clone the repository from GitHub using:
 git clone https://github.com/Mahesh6221/Transitperformace_Analysis.git
 
 
