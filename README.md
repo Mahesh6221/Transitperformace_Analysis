@@ -6,6 +6,11 @@ The dataset contains detailed tracking information of shipments moving through c
 The goal is to examine how shipments move through facilities, calculate performance metrics, and output summarized datasets.
 
 
+How to Use This Project
+To use or reproduce this project, simply clone the repository from GitHub:
+git clone https://github.com/Mahesh6221/Transitperformace_Analysis.git
+
+
 Tools and Environment
 
 1. Platform: Databricks
@@ -77,7 +82,7 @@ v. Missing address data.
 vi.Empty or missing event arrays.
 
 Part 5: Output Detailed Transit CSV
-- Created a detailed shipment-level CSV containing metrics for each shipment.
+Created a detailed shipment-level CSV containing metrics for each shipment.
 
 Volume Created:
 transittarget
@@ -94,8 +99,8 @@ ii. total_transit_hours, num_facilities_visited, avg_hours_per_facility, num_out
 Part 6: Output Network Performance Summary CSV
 
 Generated an aggregated summary CSV showing overall transit network performance.
-Volume Created:
 
+Volume Created:
 transitperformance
 
 Output Path:
@@ -111,10 +116,10 @@ iv. Delivery performance summary (first attempt %, avg delivery attempts).
 
 Final Deliverables:
 
-transit_performance_detailed.csv
+i. Source Code Python
+ii. transit_performance_detailed.csv
 (Detailed shipment-level performance data)
-
-transit_performance_summary.csv
+iii.transit_performance_summary.csv
 (Network-level summary metrics)
 
 
